@@ -82,7 +82,6 @@ function GetMemberID($member_type,$koneksi){
 		$jumlah = $hasil->fields["jumlah"];
 		$hasil->MoveNext();
 	}
-	
 	return "1224".$jumlah;
 }
 
